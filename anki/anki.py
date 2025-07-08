@@ -4,9 +4,12 @@ from pathlib import Path
 
 
 anki_bp = Blueprint('anki', __name__, template_folder='templates')
-def open_rel(filename):
+def open_rel(filename, method='r', content=None):
     """Open a file relative to the current script's directory."""
-    return open(Path(__file__).parent.resolve() / filename)
+    if method == 'r':
+        return open(Path(__file__).parent.resolve() / filename)
+    elif method == 'w':
+        return open(Path(__file__).parent.resolve() / filename, 'w').write(content)
 
 @anki_bp.route('/')
 def hello_world():
@@ -21,7 +24,7 @@ def get_data():
 def update_data():
     content = request.json
     if content:
-        open_rel("data.json").write(jdumps(content, indent=2))
+        open_rel("data.json", method='w', content=jdumps(content, indent=2))
         return jsonify({"status": "success", "message": "Data updated successfully"}), 200
     else:
         return jsonify({"status": "error", "message": "No data provided"}), 400
