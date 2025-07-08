@@ -69,7 +69,7 @@
         function addToday() {
             const today = new Date();
             const dateStr = today.toISOString().split('T')[0]; // Formát YYYY-MM-DD
-            
+
             //pop-up pro zadání hodnoty
             const value = parseInt(prompt('Zadejte hodnotu pro dnešní den:', '0'), 10);
             if (isNaN(value)) {
@@ -105,7 +105,7 @@
                 }
             }
 
-            fetch('/update_data', {
+            fetch('/anki/update_data', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
