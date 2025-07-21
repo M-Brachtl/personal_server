@@ -1,26 +1,26 @@
 [
     {
-        "teams": "Czechia vs Switzerland",
-        "result": "2:1",
         "points": {
             "test1": 19,
             "test2": 18
-        }
+        },
+        "result": "2:1",
+        "teams": "Czechia vs Switzerland"
     },
     {
-        "teams": "Germany vs France",
-        "result": "1:1",
         "points": {
-            "test1": 30,
+            "test1": 12,
             "test2": 18
-        }
+        },
+        "result": "1:1",
+        "teams": "Germany vs France"
     },
     {
-        "teams": "Italy vs Spain",
-        "result": "0:2",
         "points": {
             "test1": 19,
             "test2": 30
-        }
+        },
+        "result": "0:2",
+        "teams": "Italy vs Spain"
     }
 ]

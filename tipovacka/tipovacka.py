@@ -44,11 +44,11 @@ def post_points(token=None):
         return jsonify({'status': 'error', 'message': 'Invalid token'}), 403
     data = request.json
     open_rel('points.json', 'w', jdumps(data, indent=4))
-    return jsonify({'status': 'success'})
+    return jsonify({'status': 'success'}), 200
 @tipo_bp.route('/post_users/<token>', methods=['POST'])
 def post_users(token=None):
     if token != "5be75b7c6d652dd5e38d3034e9cd6fb9abf5df80d0687771391d5d1ba611a158": # sha256(open_rel('users.json').read().strip().encode()).hexdigest(): idea for potential security
         return jsonify({'status': 'error', 'message': 'Invalid token'}), 403
     data = request.json
     open_rel('users.json', 'w', jdumps(data, indent=4))
-    return jsonify({'status': 'success'})
+    return jsonify({'status': 'success'}), 200
