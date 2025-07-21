@@ -1,0 +1,12 @@
+{
+    "test1": [
+        { "match": "Czechia vs Switzerland", "result": "2:1", "guess": "2:0" },
+        { "match": "Germany vs France", "result": "1:1", "guess": "1:1" },
+        { "match": "Italy vs Spain", "result": "0:2", "guess": "0:3" }
+    ],
+    "test2": [
+        { "match": "Czechia vs Switzerland", "result": "2:1", "guess": "1:0" },
+        { "match": "Germany vs France", "result": "1:1", "guess": "2:2" },
+        { "match": "Italy vs Spain", "result": "0:2", "guess": "0:2" }
+    ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "teams": "Czechia vs Switzerland",
+        "result": "2:1",
+        "points": {
+            "test1": 19,
+            "test2": 18
+        }
+    },
+    {
+        "teams": "Germany vs France",
+        "result": "1:1",
+        "points": {
+            "test1": 30,
+            "test2": 18
+        }
+    },
+    {
+        "teams": "Italy vs Spain",
+        "result": "0:2",
+        "points": {
+            "test1": 19,
+            "test2": 30
+        }
+    }
+]
