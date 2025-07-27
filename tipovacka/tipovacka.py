@@ -9,7 +9,7 @@ from flask_cors import CORS as FlaskCORS
 CORS_ALLOW_ORIGINS = ['http://localhost:5173', 'http://localhost:5000']
 CORS_ALLOW_HEADERS = ['Content-Type', 'Authorization']
 
-tipo_bp = Blueprint('tipovacka', __name__, static_folder='frontend', static_url_path='')
+tipo_bp = Blueprint('tipovacka', __name__, static_folder='browser', static_url_path='')
 FlaskCORS(tipo_bp, origins=CORS_ALLOW_ORIGINS, headers=CORS_ALLOW_HEADERS)
 
 def open_rel(filename, method='r', content=None):
