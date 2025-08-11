@@ -1,0 +1,104 @@
+[
+    {
+        "teams": "Czechia vs Switzerland",
+        "result": "2:1",
+        "points": {
+            "test1": 19,
+            "test2": 18
+        }
+    },
+    {
+        "teams": "Germany vs France",
+        "result": "1:1",
+        "points": {
+            "test1": 30,
+            "test2": 18
+        }
+    },
+    {
+        "teams": "Italy vs Spain",
+        "result": "0:2",
+        "points": {
+            "test1": 19,
+            "test2": 30
+        }
+    },
+    {
+        "teams": "Portugal vs Netherlands",
+        "result": "3:1",
+        "points": {
+            "test1": 30,
+            "test2": 19
+        }
+    },
+    {
+        "teams": "Belgium vs Poland",
+        "result": "1:0",
+        "points": {
+            "test1": 18,
+            "test2": 30
+        }
+    },
+    {
+        "teams": "Scotland vs Wales",
+        "result": "2:2",
+        "points": {
+            "test1": 25,
+            "test2": 25
+        }
+    },
+    {
+        "teams": "England vs Ireland",
+        "result": "1:0",
+        "points": {
+            "test1": 30,
+            "test2": 18
+        }
+    },
+    {
+        "teams": "Finland vs Norway",
+        "result": "0:3",
+        "points": {
+            "test1": 19,
+            "test2": 30
+        }
+    },
+    {
+        "teams": "Sweden vs Denmark",
+        "result": "1:1",
+        "points": {
+            "test1": 25,
+            "test2": 25
+        }
+    },
+    {        "teams": "Russia vs Ukraine",
+        "result": "2:0",
+        "points": {
+            "test1": 30,
+            "test2": 19
+        }
+    },
+    {
+        "teams": "Greece vs Turkey",
+        "result": "1:1",
+        "points": {
+            "test1": 25,
+            "test2": 25
+        }
+    },
+    {
+        "teams": "Austria vs Hungary",
+        "result": "3:2",
+        "points": {
+            "test1": 30,
+            "test2": 19
+        }
+    },
+    {
+        "teams": "Croatia vs Serbia",
+        "result": "0:0",
+        "points": {
+            "test1": 25,
+            "test2": 25
+        }
+    }]
