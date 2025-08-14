@@ -2,15 +2,21 @@
     {
         "points": {
             "test1": 0,
-            "test2": 30
+            "test2": 0,
+            "test3": 19,
+            "test4": 0,
+            "test5": 30
         },
-        "result": "2:1",
+        "result": "2:3",
         "teams": "Czechia vs Switzerland"
     },
     {
         "points": {
             "test1": 30,
-            "test2": 18
+            "test2": 18,
+            "test3": 0,
+            "test4": 18,
+            "test5": 30
         },
         "result": "1:4",
         "teams": "Germany vs France"
@@ -18,7 +24,10 @@
     {
         "points": {
             "test1": 17,
-            "test2": 17
+            "test2": 17,
+            "test3": 18,
+            "test4": 30,
+            "test5": 18
         },
         "result": "1:4",
         "teams": "Italy vs Spain"
